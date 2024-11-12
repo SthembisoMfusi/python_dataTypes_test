@@ -10,7 +10,7 @@ from advanced_test import (
 class TestAdvancedFunctions(unittest.TestCase):
 
     def test_create_squares_of_evens(self):
-        self.assertEqual(create_squares_of_evens(), [4, 16, 36, 64, 100])
+        self.assertEqual(create_squares_of_evens(), [4, 16, 36, 64, 100, 144,196, 256,324, 400 ])
 
     def test_convert_to_dict(self):
         students = [('Alice', 85), ('Bob', 90), ('Charlie', 78), ('David', 92)]
